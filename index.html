@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AG Homes</title>
+<title>AG HOMES</title>
 
 <style>
 *{
@@ -16,52 +16,74 @@ font-family:Arial,sans-serif;
 body{
 background:#000;
 color:#fff;
+text-align:center;
+background:linear-gradient(135deg,#000,#1b1b1b);
 }
 
 .hero{
-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:20px;
-background:linear-gradient(to bottom,#000,#222);
+padding:80px 20px;
 }
 
-.hero h1{
+h1{
 font-size:60px;
 color:#d4af37;
-margin-bottom:10px;
 }
 
-.hero h2{
-font-size:28px;
-margin-bottom:20px;
+h2{
+margin-top:15px;
+font-size:22px;
 }
 
-.hero p{
+p{
+margin-top:10px;
+color:#d0d0d0;
 font-size:18px;
-color:#ddd;
-margin:8px 0;
+}
+
+.contact{
+margin-top:25px;
+line-height:2;
+font-size:20px;
 }
 
 .btn{
 display:inline-block;
 margin:10px;
-padding:14px 28px;
+padding:15px 30px;
 background:#d4af37;
 color:#000;
 text-decoration:none;
-border-radius:30px;
+border-radius:40px;
 font-weight:bold;
+transition:.3s;
 }
 
-.footer{
+.btn:hover{
+transform:scale(1.05);
+}
+
+.services{
+padding:50px 20px;
+}
+
+.services h3{
+color:#d4af37;
+font-size:38px;
+margin-bottom:25px;
+}
+
+.box{
+max-width:700px;
+margin:15px auto;
 padding:20px;
-text-align:center;
-background:#111;
-color:#bbb;
+background:#1a1a1a;
+border-radius:15px;
+font-size:24px;
+}
+
+footer{
+padding:30px;
+color:#aaa;
 }
 </style>
 
@@ -75,13 +97,22 @@ color:#bbb;
 
 <h2>Turning Dreams Into Reality</h2>
 
-<p>Er. Deepanshu Gupta</p>
+<p><b>Er. Deepanshu Gupta</b></p>
 <p>Civil Engineer & Building Contractor</p>
 
-<p>📞 +91 97924 43917</p>
-<p>📞 +91 96485 24197</p>
+<div class="contact">
 
-<p>💬 WhatsApp Available on Both Numbers</p>
+📞 <a href="tel:+919792443917" style="color:white;text-decoration:none;">+91 97924 43917</a>
+
+<br>
+
+📞 <a href="tel:+919648524197" style="color:white;text-decoration:none;">+91 96485 24197</a>
+
+<br><br>
+
+💬 WhatsApp Available On Both Numbers
+
+</div>
 
 <a class="btn" href="tel:+919792443917">
 Call +91 97924 43917
@@ -91,15 +122,33 @@ Call +91 97924 43917
 Call +91 96485 24197
 </a>
 
+<br>
+
 <a class="btn" href="https://wa.me/919792443917">
 WhatsApp
 </a>
 
 </section>
 
-<div class="footer">
-AG Homes © 2026 | Quality Construction | On Time Delivery
-</div>
+<section class="services">
+
+<h3>Our Services</h3>
+
+<div class="box">🏠 Residential Construction</div>
+
+<div class="box">🏢 Commercial Projects</div>
+
+<div class="box">🔑 Turnkey Solutions</div>
+
+<div class="box">🛠 Renovation & Interior Work</div>
+
+</section>
+
+<footer>
+
+© 2025 AG HOMES | Quality • Trust • Excellence
+
+</footer>
 
 </body>
 </html>
