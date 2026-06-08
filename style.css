@@ -43,7 +43,20 @@ color:gold;
 }
 
 .logo img{
-height:55px;
+height:80px;
+width:auto;
+background:transparent;
+border:none;
+border-radius:0;
+filter:drop-shadow(0 0 8px gold)
+       drop-shadow(0 0 15px rgba(255,215,0,.8));
+transition:.3s;
+}
+
+.logo img:hover{
+transform:scale(1.08);
+filter:drop-shadow(0 0 12px gold)
+       drop-shadow(0 0 25px rgba(255,215,0,1));
 }
 
 nav a{
@@ -67,7 +80,18 @@ justify-content:center;
 align-items:center;
 text-align:center;
 padding:20px;
-background:linear-gradient(135deg,#000,#111,#1a1a1a);
+background:
+linear-gradient(
+rgba(0,0,0,0.65),
+rgba(0,0,0,0.75)
+),
+url("images/project2.png");
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+position:relative;
+overflow:hidden;
 }
 
 .hero-content h1{
@@ -214,14 +238,16 @@ z-index:9999;
 
 .float-call,
 .float-whatsapp{
-width:60px;
-height:60px;
+width:70px;
+height:70px;
 border-radius:50%;
 display:flex;
 justify-content:center;
 align-items:center;
 text-decoration:none;
-font-size:28px;
+font-size:13px;
+font-weight:bold;
+letter-spacing:.5px;
 transition:.3s;
 box-shadow:0 0 15px rgba(0,0,0,.4);
 }
